@@ -1,0 +1,116 @@
+<!--pages/comdetails/comdetails.wxml-->
+<view class='all'>
+  <view class='backImg1'>
+  <view class='leftImg1'>
+     <image src="http://img.weiye.me/zcimgdir/thumb/o_15172758485a6fcac87076a.jpg"></image>
+    </view>
+      <view class='rightText'>
+         <view class='font1'>政务爆料</view>
+         <view class='font2'>
+            <text>2018-02-03</text>
+            <text> 人气 0</text>
+         </view>
+      </view>
+</view>
+<view class='conte'>
+  <view class='font1'>hellow</view>
+  <view class='font2'>hellow</view>
+</view>
+<view class='imgPosition'>
+   <image src='http://img.weiye.me/zcimgdir/thumb/o_15172758485a6fcac87076a.jpg'></image>
+    <image src='http://img.weiye.me/zcimgdir/thumb/o_15172758485a6fcac87076a.jpg'></image>
+</view>
+<view class='jubao' >
+  <van-icon name="info-o" />举报
+</view>
+  <view class='foot'>
+    <text>全部评论0</text>
+     <text>0 赞</text>
+  </view>
+</view>
+
+
+<!-- <view class='shafa'>
+  <view class='imgimg'>
+    <image src='http://cdn.jisuapp.cn/static/webapp/images/none.png'></image>
+       <view class='tete font1'>快来抢沙发</view>
+  </view>
+
+</view> -->
+<view class='say'>
+    <view class='say1'>
+       <image src='../../images/toux.png'></image>
+    </view>
+    <view class='say2'>
+       <view class='say4'>
+          <text>56565465456</text>
+          <view class='say3'>
+             <van-icon name="comment-o" size='20px'/>
+             <van-icon name="like-o" size='20px'/>赞
+          </view>
+        </view>
+     <view>1楼 2017-08-25</view>
+     <view class='liuyan'>好好
+     </view>
+  </view>
+</view>
+
+<view class='say'>
+    <view class='say1'>
+       <image src='../../images/toux.png'></image>
+    </view>
+    <view class='say2'>
+       <view class='say4'>
+          <text>56565465456</text>
+          <view class='say3'>
+             <van-icon name="comment-o" size='20px'/>
+             <van-icon name="like-o" size='20px'/>赞
+          </view>
+        </view>
+     <view>1楼 2017-08-25</view>
+     <view>好好</view>
+  </view>
+</view>
+
+<view class='noMore'>
+   没有更多了
+</view>
+
+
+
+
+
+<view class='footBtn'  hidden="{{hiddenn}}">
+   <view bindtap='goJump'>
+      <van-icon name="arrow-left"  size="25px"/>
+   </view>
+   <view class="section">
+     <input placeholder="来说说你的看法" focus="{{focus}}"    bindfocus='focus'/>
+   </view>
+   <van-icon name="share" size="25px"/>
+   <van-icon name="like-o" size="25px" />
+</view>
+<van-popup
+  show="{{ show }}"
+  position="bottom"
+  overlay="{{ true}}"
+   bind:close="onClose"
+>
+  <view class='showPut'>
+    <view class="shou">
+       <text bindtap='onClose'>取消</text>
+       <text bindtap='prove'>发表</text>
+    </view>
+    <van-cell-group>
+  <van-field  class="input-class"
+    value="{{ message }}"
+    type="textarea"
+    placeholder="我来说两句"
+    autosize
+    border="{{ true }}"
+    clearable 
+    bind:change="onChange"
+  />
+</van-cell-group>
+  </view>
+</van-popup>

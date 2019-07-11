@@ -1,0 +1,32 @@
+<!--pages/senddetails/senddetails.wxml-->
+<view class='title'>
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入标题"
+    border="{{ false }}"
+    bind:change="onChange1"
+  />
+</van-cell-group>
+</view>
+<view class="conta">
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入内容"
+    border="{{ false }}"
+    type="textarea"
+    autosize
+    bind:change="onChange2"
+  />
+</van-cell-group>
+   <view>
+      <view class='camera' bindtap='uploadImg'>
+         <van-icon name="plus" size='60px' color="gray"/>
+      </view>
+   </view>
+</view>
+<view class='mid'></view>
+<view class='btn'>
+   <van-button size="large" type='danger' round="true" bind:click="clickSend">发布</van-button>
+</view>

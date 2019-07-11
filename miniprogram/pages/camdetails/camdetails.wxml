@@ -1,0 +1,28 @@
+<!--pages/camdetails/camdetails.wxml-->
+<!--pages/senddetails/senddetails.wxml-->
+<view class='title'>
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入标题"
+    border="{{ false }}"
+    bind:change="onChange"
+  />
+</van-cell-group>
+</view>
+<view class="conta">
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请粘贴公众号文章或腾讯视频链接"
+    border="{{ false }}"
+    type="textarea"
+    autosize
+    bind:change="onChange"
+  />
+</van-cell-group>
+</view>
+<view class='mid'></view>
+<view class='btn'>
+   <van-button size="large" type='danger' round="true">发布</van-button>
+</view>

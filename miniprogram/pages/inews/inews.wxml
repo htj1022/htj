@@ -1,0 +1,13 @@
+<!--pages/inews/inews.wxml-->
+<view class='header'>
+  <image src='{{list.headpic}}'></image>
+  <view class='details'>
+    <text>{{list.pub_time}}</text>
+    <text>{{list.reply_count}}</text>
+    <text>{{list.click_count}}</text>
+  </view>
+</view>
+<view class='content'>
+   <view class='title'>{{list.title}}</view>
+   <view>{{list.summary}}</view>
+</view>

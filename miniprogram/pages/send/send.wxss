@@ -1,0 +1,25 @@
+/* pages/send/send.wxss */
+.bodySend{
+  width: 100%;
+  margin: 50% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.send1{
+  width: 400rpx;
+  display: flex;
+  padding: 50rpx;
+}
+.send1 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.font1{
+  font-size: 30rpx;
+}
+
+.font2{
+  font-size: 25rpx;
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+   "pages/home/home",
+   "pages/inews/inews",
+   "pages/image/image",
+   "pages/broke/broke",
+   "pages/comunity/comunity",
+   "pages/comdetails/comdetails",
+   "pages/authorize/authorize",
+   "pages/send/send",
+   "pages/senddetails/senddetails",
+   "pages/camdetails/camdetails"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "新闻资讯",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+    "tabBar": {
+      "color": "#000000",
+      "selectedColor": "E54847",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text":"首页",
+          "iconPath":"images/film.png",
+          "selectedIconPath":"images/film-actived.png"
+        },
+        {
+          "pagePath": "pages/broke/broke",
+          "text": "爆料",
+          "iconPath": "images/profile.png",
+          "selectedIconPath": "images/profile-actived.png"
+        },
+          {
+           "pagePath": "pages/image/image",
+           "text":"图示",
+           "iconPath":"images/tushi.png",
+           "selectedIconPath": "images/tushi02.png"
+          }
+        
+      ]  
+    }
+}

@@ -1,0 +1,57 @@
+<!--pages/home/home.wxml-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view>
+  <van-tabs sticky active="{{ active }}" bind:change="onChange">
+  <van-tab title="娱乐">
+    <view>
+     <van-card wx:for="{{list}}" wx:key="index" bindtap="jump" 
+     data-newsid="{{item.aid}}"
+       desc="{{item.source}}"
+       title="{{item.title}}"
+       thumb="{{item.headpic}}"
+ />
+    </view>
+  </van-tab>
+  <van-tab title="军事">
+      <view>
+      <van-card wx:for="{{list}}" wx:key="index" bindtap="jump" 
+     data-newsid="{{item.aid}}"
+       desc="{{item.source}}"
+       title="{{item.title}}"
+thumb="{{item.headpic}}"
+/>
+    </view>
+  </van-tab>
+  <van-tab title="汽车">
+          <view>
+      <van-card wx:for="{{list}}" wx:key="index" bindtap="jump" 
+     data-newsid="{{item.aid}}"
+       desc="{{item.source}}"
+       title="{{item.title}}"
+thumb="{{item.headpic}}"
+/>
+    </view>
+  </van-tab>
+  <van-tab title="财经">
+    <view>
+      <van-card wx:for="{{list}}" wx:key="index" bindtap="jump" 
+     data-newsid="{{item.aid}}"
+       desc="{{item.source}}"
+       title="{{item.title}}"
+thumb="{{item.headpic}}"
+/>
+    </view>
+  </van-tab>
+</van-tabs>
+</view>
+
+

@@ -1,0 +1,130 @@
+/* pages/comunity/comunity.wxss */
+.icon{
+  display: flex;
+  justify-content: flex-end;
+}
+.backImg{
+  width: 100%;
+  height: 300rpx;
+  /* background: rgba(0, 0, 0,0.5);
+  opacity: 0.5; */
+  background: url("http://img.zhichiwangluo.com/zcimgdir/album/file_58f9d87eb48f8.png") no-repeat;
+  /* background-size:cover;  */
+  /* background-repeat: repeat; */
+  display: flex;
+  justify-content: space-around;
+  font-size: 30rpx;
+  color: #ffffff;
+}
+.leftImg{
+  display: flex;
+align-items: center;
+}
+.leftImg image{
+  width: 250rpx;
+  height: 250rpx;
+}
+.rightText{
+  display: flex;
+  flex-direction: column;
+  line-height: 60rpx;
+}
+.middleText{
+  height: 100rpx;
+  color: red;
+  font-size: 32rpx;
+  background-color: #C4C2C0;
+  padding-top:15rpx;
+
+}
+.middleColor{
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color:#ffffff;
+  padding-left: 10rpx;
+}
+.backImg1{
+    width: 100%;
+  height: 150rpx;
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+}
+.leftImg1 image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin-right: 5rpx;
+}
+.comment{
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #C4C2C0;
+}
+.commentsize{
+    background-color:#ffffff;
+    padding: 10rpx;
+}
+.couImg{
+  display: flex;
+  flex-wrap: wrap;
+}
+.couImg image{
+  width: 30%;
+  height: 250rpx;
+  margin: 1%;
+}
+.font1{
+  font-size: 30rpx;
+  color:#010101;
+}
+.font2{
+  font-size: 27rpx;
+  color:#959595;
+}
+.font3{
+  color:#ee3e40;
+  font-size: 27rpx;
+}
+.footer{
+
+  display: flex;
+  justify-content: space-between;
+  border-top: thin #C4C2C0 solid;
+  font-size:30rpx;
+  text-align: center;
+}
+.footer .sdd{
+  width: 25%;
+     border-right: thin #C4C2C0 solid;
+     font-size: 24rpx;
+}
+.write image{
+  width: 60rpx;
+  height: 60rpx;
+  position: fixed;
+  top:80%;
+  left: 88%;
+}
+.top image{
+  width: 70rpx;
+  height: 70rpx;
+  position: fixed;
+  top:73%;
+  left: 88%;
+}
+
+/* 返回顶部 */
+.goTop{
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  position: fixed;
+  bottom: 120rpx;
+  right: 30rpx;
+  z-index: 999;
+  background: rgba(0,0,0,.3);
+  color: #fff;
+  border-radius: 50%;
+}

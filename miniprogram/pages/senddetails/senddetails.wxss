@@ -1,0 +1,19 @@
+/* pages/senddetails/senddetails.wxss */
+.title,.conta{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+.camera{
+  width: 150rpx;
+  height: 150rpx;
+  padding: 20rpx;
+  border: 1px dotted rgba(0, 0, 0, 0.1)
+}
+.mid{
+  height: 20rpx;
+  background-color: gray;
+}
+.btn{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}

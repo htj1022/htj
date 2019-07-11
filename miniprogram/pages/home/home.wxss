@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+.slide-image{
+  width: 100%;
+}
+.van-card__title{
+  font-size: 30rpx;
+}
+.van-card__desc{
+  font-size: 30rpx;
+}

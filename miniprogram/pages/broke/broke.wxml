@@ -1,0 +1,28 @@
+<!--pages/broke/broke.wxml-->
+<view>
+  <view class='backImg' bindtap='toComdetails'>
+    <image src="http://img.zhichiwangluo.com/zcimgdir/album/file_58f9d87eb48f8.png"></image>
+  </view>
+  <view>
+    <text>政务爆料</text>
+    <text class='text'>政务舆情别真等24小时再“发声”</text>
+  </view>
+</view>
+<view>
+  <view class='backImg'>
+    <image src="http://img.zhichiwangluo.com/zcimgdir/album/file_58f9d886b9ff9.png"></image>
+  </view>
+  <view>
+    <text>同城爆料</text>
+    <text class='text'>曝光你身边刚刚发生或正在发生的事</text>
+  </view>
+</view>
+<view>
+  <view class='backImg'>
+    <image src="http://img.zhichiwangluo.com/zcimgdir/album/file_58f9d88e43013.png"></image>
+  </view>
+  <view>
+    <text>星闻爆料</text>
+    <text class='text'>你知道哪些 我们不知道的星事？</text>
+  </view>
+</view>

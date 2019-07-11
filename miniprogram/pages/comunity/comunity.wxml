@@ -1,0 +1,73 @@
+<!--pages/comunity/comunity.wxml-->
+<view>
+  <van-search class="field-class"
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+</view>
+<!-- <view class='icon'>
+   <van-icon name="user-o" size='30px'/>
+   <van-icon name="volume-o" size='30px'/>
+</view> -->
+<view class='backImg'>
+   <view class='leftImg'>
+     <image src="http://img.weiye.me/zcimgdir/thumb/t_149276964458f9db6ccd04e.png"></image>
+      </view>
+      <view class='rightText'>
+         <view >政务爆料</view>
+         <view>
+           <text>话题17 回复10</text>
+         </view>
+         <view>
+           政务舆情别真等24小时再“发声”
+         </view>
+      </view>
+</view>
+<view class='middleText'>
+  <view class='middleColor'>全部</view>
+</view>
+<view class='comment'>
+ <view class='commentsize'>
+  <view class='backImg1'>
+   <view class='leftImg1'>
+     <image src="http://img.weiye.me/zcimgdir/thumb/o_15172758485a6fcac87076a.jpg"></image>
+    </view>
+      <view class='rightText'>
+         <view class='font1'>政务爆料</view>
+         <view class='font2'>
+           2018-02-03
+         </view>
+      </view>
+   </view>
+   <view class='font1'>我老包欧安平</view>
+    <view class='font2'>dasdasd</view>
+    <view class='couImg'>
+      <image src='http://img.weiye.me/zcimgdir/thumb/o_150366099759a00bc5b4ec4.jpg'></image>
+      <image src='http://img.weiye.me/zcimgdir/thumb/o_150366099759a00bc5b4ec4.jpg'></image>
+      <image src='http://img.weiye.me/zcimgdir/thumb/o_150366099759a00bc5b4ec4.jpg'></image>
+      <image src='http://img.weiye.me/zcimgdir/thumb/o_150366099759a00bc5b4ec4.jpg'></image>
+    </view>
+    <view class='say'>
+       <view class='font2'>你还</view>
+       <view class='font2'>我好</view>
+       <view class='font3'>查看全部2条评论</view>
+    </view>
+    <view class='footer'>
+      <button class='sdd' plain='true' open-type='share'><van-icon name="share" />分享</button>
+      <button class='sdd' bindtap='jump' data-id="1"><van-icon name="eye-o" />14</button>
+      <button class='sdd'><van-icon name="chat-o" />评论</button>
+      <button class='sdd'><van-icon name="like-o" />1点赞</button>
+    </view>
+  </view>
+</view>
+<view class='top' hidden='{{!showGoTop}}' bindtap="goTop">
+    <image src="../../images/top.png"></image>
+</view>
+<view class='write'  bindtap='gosay' >
+    <image src="../../images/write.png"></image>
+</view>
+
+

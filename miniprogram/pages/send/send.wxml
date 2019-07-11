@@ -1,0 +1,17 @@
+<!--pages/send/send.wxml-->
+<view class='bodySend'>
+   <view class='send1' bindtap='toSendtails'>
+     <view> <image src='../../images/camera.png'></image></view>
+    <view class='send2'>
+      <view class='font1'>图文</view>
+       <view class='font2'>拍照或相册上传</view>
+  </view>
+</view>
+<view class='send1' bindtap='toCamdtails'>
+    <view> <image src='../../images/xinxi1.png'></image></view>  
+  <view class='send2'>
+    <view class='font1'>文章/视频</view>
+     <view class='font2'>公众号文章或腾讯视频链接</view>
+  </view>
+</view>
+</view>
